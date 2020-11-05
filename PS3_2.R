@@ -20,4 +20,4 @@ data                 %>%
 anova_one_way <- aov(OXYGEN ~ BONE, data = data)
 summary(anova_one_way)
 TukeyHSD(anova_one_way)
-#有99.9%的概率认为这些骨头是在同一温度下形成的，即恐龙属于恒温动物
+#有99.9%的概率认为这些骨头不是同一温度下形成的，即恐龙属于变温动物
